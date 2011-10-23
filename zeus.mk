@@ -15,10 +15,14 @@
 #
 -include device/semc/msm7x30-common/msm7x30.mk
 
+PRODUCT_PACKAGES += \
+    hostap
+
 # Init files
 PRODUCT_COPY_FILES += \
     device/semc/zeus-common/prebuilt/ueventd.zeus.rc:root/ueventd.zeus.rc \
     device/semc/zeus-common/prebuilt/init.zeus.rc:root/init.semc.rc
 
+#WIFI modules and configs
 PRODUCT_COPY_FILES += \
     device/semc/zeus-common/modules/bcm4329.ko:root/modules/bcm4329.ko
