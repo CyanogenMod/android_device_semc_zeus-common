@@ -20,6 +20,5 @@ PRODUCT_PACKAGES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-    device/semc/zeus-common/prebuilt/ueventd.semc.rc:root/ueventd.semc.rc \
     device/semc/zeus-common/prebuilt/init.semc.rc:root/init.semc.rc
 
