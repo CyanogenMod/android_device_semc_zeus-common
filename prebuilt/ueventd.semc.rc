@@ -8,7 +8,9 @@
 /dev/bma250               0640   compass    system
 /dev/msm_aac*             0660   system     audio
 /dev/usb_accessory        0660   root       usb
-# video encoder on 720p-enabled 8k targets
+/dev/kgsl-2d0            0666   system  graphics
+/dev/kgsl-3d0            0666   system  graphics
+/dev/genlock             0666   system  graphics
 /dev/pmem_venc            0660   system     audio
 /sys/devices/virtual/usb_composite/*   enable      0664  root   system
 /dev/oncrpc/30000017:00010000   0660    radio   radio
