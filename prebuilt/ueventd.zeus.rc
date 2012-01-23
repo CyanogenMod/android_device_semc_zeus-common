@@ -6,10 +6,14 @@
 /dev/msm_vpe              0660   system     system
 /dev/pmem_swiqi           0660   system     graphics
 /dev/bma250               0640   compass    system
-/dev/msm_aac*             0660   system     audio
 /dev/usb_accessory        0660   root       usb
-# video encoder on 720p-enabled 8k targets
-/dev/pmem_venc            0660   system     audio
+/dev/kgsl-2d0             0666   system     graphics
+/dev/kgsl-3d0             0666   system     graphics
+/dev/msm_aac*             0666   system     audio
+/dev/snd/timer            0666   system     audio
+/dev/snd/controlC0        0666   system     audio
+/dev/snd/pcmC0D0c         0666   system     audio
+/dev/snd/pcmC0D0p         0666   system     audio
 /sys/devices/virtual/usb_composite/*   enable      0664  root   system
 /dev/oncrpc/30000017:00010000   0660    radio   radio
 /dev/oncrpc/30000000:00070000   0660    radio   radio
