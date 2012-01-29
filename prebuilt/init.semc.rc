@@ -95,7 +95,7 @@ service hostapd /system/bin/logwrapper /system/bin/hostapd -dd /data/misc/wifi/h
     disabled
     oneshot
 
-service dhcpcd_wlan0 /system/bin/dhcpcd -B -t 30
+service dhcpcd_eth0 /system/bin/dhcpcd -B -t 30
     class main
     disabled
     oneshot
@@ -110,7 +110,7 @@ service dhcpcd_bnep0 /system/bin/dhcpcd -ABKL
     disabled
     oneshot
 
-service iprenew_wlan0 /system/bin/dhcpcd -n
+service iprenew_eth0 /system/bin/dhcpcd -n
     class main
     disabled
     oneshot
