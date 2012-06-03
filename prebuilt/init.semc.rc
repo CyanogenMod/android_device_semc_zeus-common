@@ -64,7 +64,7 @@ on boot
     class_start default
 
     #load bcm4329 module
-    insmod /modules/bcm4329.ko
+#    insmod /modules/bcm4329.ko
 
     # USB host support
     mkdir /dev/bus 0771 system system
