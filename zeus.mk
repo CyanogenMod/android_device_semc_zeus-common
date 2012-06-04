@@ -15,8 +15,10 @@
 #
 -include device/semc/msm7x30-common/msm7x30.mk
 
+DEVICE_PACKAGE_OVERLAYS += device/semc/zeus-common/overlay
+
 PRODUCT_PACKAGES += \
-    hostap
+    hostapd
 
 # Init files
 PRODUCT_COPY_FILES += \
