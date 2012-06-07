@@ -25,4 +25,5 @@ PRODUCT_COPY_FILES += \
     device/semc/zeus-common/prebuilt/init.semc.rc:root/init.semc.rc
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    wifi.interface=wlan0
+    wifi.interface=wlan0 \
+    com.qc.hdmi_out=false
