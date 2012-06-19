@@ -20,10 +20,15 @@ DEVICE_PACKAGE_OVERLAYS += device/semc/zeus-common/overlay
 PRODUCT_PACKAGES += \
     hostapd
 
+#device specific features
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
+
 # Init files
 PRODUCT_COPY_FILES += \
     device/semc/zeus-common/prebuilt/init.semc.rc:root/init.semc.rc
-    device/semc/msm7x30-common/prebuilt/filler:root/filler2
+
+#    device/semc/msm7x30-common/prebuilt/filler:root/filler2
 
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0 \
