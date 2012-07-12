@@ -22,7 +22,7 @@ PRODUCT_PACKAGES += \
 
 #device specific features
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
+    frameworks/native/data/etc/android.hardware.camera.front.xml:system/etc/permissions/android.hardware.camera.front.xml
 
 # Init files
 PRODUCT_COPY_FILES += \
