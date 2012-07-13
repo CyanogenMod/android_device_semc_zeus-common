@@ -11,7 +11,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
--include device/semc/msm7x30-common/BoardConfigCommon.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := zeus
 
@@ -35,4 +34,3 @@ TARGET_NEEDS_BLUETOOTH_INIT_DELAY := true
 BOARD_OVERLAY_FORMAT_YCbCr_420_SP := true
 BOARD_CAMERA_USE_GETBUFFERINFO := true
 
--include device/semc/msm7x30-common/Android.mk
