@@ -35,4 +35,6 @@ TARGET_NEEDS_BLUETOOTH_INIT_DELAY := true
 BOARD_OVERLAY_FORMAT_YCbCr_420_SP := true
 BOARD_CAMERA_USE_GETBUFFERINFO := true
 
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
+
 -include device/semc/msm7x30-common/Android.mk
