@@ -15,7 +15,7 @@
 
 TARGET_BOOTLOADER_BOARD_NAME := zeus
 
-# Wifi related defines
+# WiFi
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_wext
@@ -29,12 +29,12 @@ WIFI_DRIVER_MODULE_ARG := "firmware_path=/vendor/firmware/fw_bcm4329.bin nvram_p
 BOARD_WLAN_DEVICE_REV := bcm4329
 WIFI_BAND := 802_11_ABG
 
+# Bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
 TARGET_NEEDS_BLUETOOTH_INIT_DELAY := true
 
+# Camera
 BOARD_OVERLAY_FORMAT_YCbCr_420_SP := true
 BOARD_CAMERA_USE_GETBUFFERINFO := true
-
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
 
 -include device/semc/msm7x30-common/Android.mk
