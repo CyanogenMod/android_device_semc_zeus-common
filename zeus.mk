@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
 
 # Init files
 PRODUCT_COPY_FILES += \
-    device/semc/msm7x30-common/prebuilt/filler:root/filler2 \
     device/semc/zeus-common/prebuilt/init.semc.rc:root/init.semc.rc
 
 
